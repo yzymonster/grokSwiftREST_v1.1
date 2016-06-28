@@ -1,11 +1,14 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
+platform :ios, '9.3'
 
 use_frameworks!
+target "grokSwiftREST" do
 
 pod 'SwiftyJSON', '~> 2.3'
-pod 'Alamofire', '~> 3.3'
+pod 'Alamofire', '~> 3.4.1'
 pod 'PINRemoteImage', '~> 2.1'
 pod 'Locksmith', '~> 2.0'
 pod 'BRYXBanner', '~> 0.5.2'
 pod 'XLForm', '~> 3.1'
+end
+
